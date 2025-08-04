@@ -6,33 +6,33 @@ function Contact(){
         
         
     {/* contact section start */}
-      <div class="contact_section layout_padding">
+      <div className="contact_section layout_padding">
    
-            <h1 class="contact_taital">Contact Us</h1>
-            <div class="contact_section_2">
-               <div class="row">
-                  <div class="col-md-8">
-                     <div class="map_main">
-                        <div class="map-responsive">
-                           <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&amp;q=Eiffel+Tower+Paris+France" width="600" height="420" frameborder="0" style={{"border":"0", "width": "100%" }} allowfullscreen=""></iframe>
+            <h1 className="contact_taital">Contact Us</h1>
+            <div className="contact_section_2">
+               <div className="row">
+                  <div className="col-md-8">
+                     <div className="map_main">
+                        <div className="map-responsive">
+                           <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&amp;q=Eiffel+Tower+Paris+France" width="600" height="420" frameBorder="0" style={{"border":"0", "width": "100%" }} allowFullScreen=""></iframe>
                         </div>
                      </div>
                   </div>
-                  <div class="col-md-4">
-                     <div class="email_text">
-                        <div class="form-group">
-                           <input type="text" class="email-bt" placeholder="Name" name="Email"/>
+                  <div className="col-md-4">
+                     <div className="email_text">
+                        <div className="form-group">
+                           <input type="text" className="email-bt" placeholder="Name" name="Email"/>
                         </div>
-                        <div class="form-group">
-                           <input type="text" class="email-bt" placeholder="Phone Numbar" name="Email"/>
+                        <div className="form-group">
+                           <input type="text" className="email-bt" placeholder="Phone Numbar" name="Email"/>
                         </div>
-                        <div class="form-group">
-                           <input type="text" class="email-bt" placeholder="Email" name="Email"/>
+                        <div className="form-group">
+                           <input type="text" className="email-bt" placeholder="Email" name="Email"/>
                         </div>
-                        <div class="form-group">
-                           <textarea class="massage-bt" placeholder="Massage" rows="5" id="comment" name="Massage"></textarea>
+                        <div className="form-group">
+                           <textarea className="massage-bt" placeholder="Massage" rows="5" id="comment" name="Massage"></textarea>
                         </div>
-                        <div class="send_btn"><a href="#">SEND</a></div>
+                        <div className="send_btn"><a href="#">SEND</a></div>
                      </div>
                   </div>
                </div>
