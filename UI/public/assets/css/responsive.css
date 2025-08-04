@@ -1,0 +1,402 @@
+/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .header-search {
+        padding: 15px 0px;
+    }
+}
+
+
+/*------------------------------------------------------------------- 767px x 599px ---------------------------------------------------------------------*/
+
+@media only screen and (min-width: 599px) and (max-width: 767px) {
+    .logo {
+        text-align: center;
+    }
+    .cart-content-right {
+        padding-bottom: 5px;
+    }
+    .mg {
+        margin: 0px 0px;
+    }
+    .menu-area-main {
+        height: 256px;
+        overflow-y: auto;
+    }
+    .megamenu>.row [class*="col-"] {
+        padding: 0px;
+    }
+    .menu-area-main .megamenu .men-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .women-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .el-cat {
+        padding: 0px 15px;
+    }
+    .mean-container .mean-nav ul li a.mean-expand {
+        height: 19px;
+    }
+    .category-box.women-box {
+        display: none;
+    }
+    .cart-box {
+        display: inline-block;
+        margin: 0px 30px;
+    }
+    .wish-box {
+        float: none;
+        margin: 0px 30px;
+        display: inline-block;
+    }
+    .menu-add {
+        display: none;
+    }
+    .category-box {
+        display: none;
+    }
+    .mean-container .mean-nav ul li ol {
+        padding: 0px;
+    }
+    .mean-container .mean-nav ul li a {
+        padding: 10px 20px;
+        width: 94.8%;
+    }
+    .mean-container .mean-nav ul li li a {
+        width: 92%;
+        padding: 1em 4%;
+    }
+    .mean-container .mean-nav ul li li li a {
+        width: 100%;
+    }
+    .header-search {
+        padding: 15px 0px;
+    }
+    #collapseFilter.d-md-block {
+        padding: 30px 0px;
+    }
+}
+
+
+/*------------------------------------------------------------------- 599px x 280px ---------------------------------------------------------------------*/
+
+@media only screen and (min-width: 280px) and (max-width: 599px) {
+    .cart-content-right {
+        padding-bottom: 5px;
+    }
+    .megamenu>.row [class*="col-"] {
+        padding: 0px;
+    }
+    .menu-area-main .megamenu .men-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .women-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .el-cat {
+        padding: 0px 15px;
+    }
+    .mean-container .mean-nav ul li a {
+        padding: 1em 4%;
+        width: 92%;
+    }
+    .mean-container .mean-nav ul li li a {
+        width: 90%;
+        padding: 1em 5%;
+    }
+    .mean-container .sub-full.megamenu-categories ol li a {
+        padding: 5px 0px;
+        text-transform: capitalize;
+        width: 100%;
+    }
+    .megamenu .sub-full.megamenu-categories .women-box .banner-up-text a {
+        width: auto;
+        border: none;
+        float: none;
+    }
+    .menu-area-main {
+        height: 45px;
+        overflow-y: auto;
+    }
+    .mean-container .mean-nav ul li a.mean-expand {
+        top: 0;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .years_text {
+        font-size: 21px;
+    }
+    .long_text {
+        width: 45%;
+    }
+    .carousel-indicators .active {
+        left: 47%;
+    }
+    .footer_menu li {
+        font-size: 17px;
+    }
+    .logo {
+        width: 37%;
+    }
+    .banner_main {
+        width: 50%;
+    }
+    .image_1 {
+        padding-top: 70px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .banner_main {
+        width: 70%;
+    }
+    .navbar-light .navbar-toggler {
+        border-color: #000;
+    }
+    .blog_taital {
+        padding-top: 0px;
+    }
+    .years_text {
+        font-size: 15px;
+    }
+    .price_text {
+        font-size: 20px;
+    }
+    .long_text {
+        width: 59%;
+    }
+    .carousel-indicators .active {
+        left: 46%;
+    }
+    .box_main {
+        width: 148px;
+        padding: 50px 0px;
+    }
+    .box_main_2 {
+        width: 148px;
+        padding: 50px 0px;
+    }
+    .box_main_3 {
+        width: 148px;
+        padding: 50px 0px;
+    }
+    .box_main_4 {
+        width: 148px;
+        padding: 50px 0px;
+    }
+    .cargo_text {
+        font-size: 18px;
+    }
+    .services_taital {
+        padding-top: 20px;
+    }
+    .image_1 {
+        width: 60%;
+        margin: 0 auto;
+        padding-top: 50px;
+        text-align: center;
+        display: block;
+        float: initial;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    #main_slider a.carousel-control-prev {
+        position: absolute;
+        left: 175px;
+        top: 90%;
+        display: none;
+    }
+    #main_slider a.carousel-control-next {
+        position: absolute;
+        left: 236px;
+        top: 90%;
+        display: none;
+    }
+    #my_slider a.carousel-control-next {
+        display: none;
+    }
+    #my_slider a.carousel-control-prev {
+        display: none;
+    }
+    .navbar-light .navbar-toggler {
+        border-color: #000;
+    }
+    .banner_main {
+        width: 80%;
+    }
+    .banner_taital {
+        font-size: 40px;
+    }
+    .banner_main::after {
+        left: -10px;
+        margin-top: -147px;
+    }
+    .banner_section {
+        padding-bottom: 50px;
+    }
+    .book_text {
+        font-size: 26px;
+    }
+    .book_main {
+        padding: 30px 20px;
+    }
+    .location_text {
+        padding-top: 20px;
+    }
+    .location_main {
+        margin-top: 0px;
+    }
+    .image_1 {
+        margin-top: 30px;
+    }
+    .services_taital {
+        padding-top: 0px;
+        font-size: 40px;
+    }
+    .services_text {
+        font-size: 15px;
+    }
+    .box_main {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .boxes_main {
+        display: initial;
+    }
+    .box_main_2 {
+        width: 100%;
+    }
+    .box_main_3 {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .box_main_4 {
+        width: 100%;
+        transform: initial;
+        margin-top: 30px;
+    }
+    .blog_taital {
+        font-size: 40px;
+        padding-top: 0px;
+    }
+    .client_taital {
+        font-size: 40px;
+    }
+    .icon_5 {
+        display: none;
+    }
+    .long_text {
+        width: 80%;
+        font-size: 15px;
+    }
+    .carousel-indicators li {
+        display: none;
+    }
+    .client_section {
+        padding-bottom: 0px;
+    }
+}
+
+@media (max-width: 575px) {
+    #main_slider a.carousel-control-prev {
+        position: absolute;
+        left: 175px;
+        top: 90%;
+        display: none;
+    }
+    #main_slider a.carousel-control-next {
+        position: absolute;
+        left: 236px;
+        top: 90%;
+        display: none;
+    }
+    #my_slider a.carousel-control-next {
+        display: none;
+    }
+    #my_slider a.carousel-control-prev {
+        display: none;
+    }
+    .navbar-light .navbar-toggler {
+        border-color: #000;
+    }
+    .banner_main {
+        width: 100%;
+    }
+    .banner_taital {
+        font-size: 26px;
+    }
+    .banner_main::after {
+        left: -10px;
+        margin-top: -147px;
+    }
+    .banner_section {
+        padding-bottom: 50px;
+    }
+    .book_text {
+        font-size: 26px;
+    }
+    .book_main {
+        padding: 30px 20px;
+    }
+    .location_text {
+        padding-top: 20px;
+    }
+    .location_main {
+        margin-top: 0px;
+    }
+    .image_1 {
+        margin-top: 30px;
+    }
+    .services_taital {
+        padding-top: 0px;
+        font-size: 40px;
+    }
+    .services_text {
+        font-size: 15px;
+    }
+    .box_main {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .boxes_main {
+        display: initial;
+    }
+    .box_main_2 {
+        width: 100%;
+    }
+    .box_main_3 {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .box_main_4 {
+        width: 100%;
+        transform: initial;
+        margin-top: 30px;
+    }
+    .blog_taital {
+        font-size: 40px;
+        padding-top: 0px;
+    }
+    .client_taital {
+        font-size: 28px;
+    }
+    .icon_5 {
+        display: none;
+    }
+    .long_text {
+        width: 80%;
+        font-size: 15px;
+    }
+    .carousel-indicators li {
+        display: none;
+    }
+    .client_section {
+        padding-bottom: 0px;
+    }
+}

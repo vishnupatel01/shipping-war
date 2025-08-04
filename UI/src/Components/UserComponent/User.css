@@ -1,0 +1,68 @@
+/* General layout */
+.user {
+  display: flex;
+  min-height: 100vh;
+  background-color: #ffe6f0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  background-color: #ffb6c1;
+  padding: 20px;
+  color: #fff;
+}
+
+.sidebar h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 15px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.sidebar ul li:hover {
+  color: #fff0f5;
+}
+
+/* Main content */
+.main-content {
+  flex: 1;
+  padding: 40px;
+}
+
+.main-content header h1 {
+  font-size: 32px;
+  color: #d63384;
+  margin-bottom: 30px;
+}
+
+/* Cards */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  background-color: #ffc0cb;
+  color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  flex: 1 1 300px;
+  box-shadow: 0 4px 6px rgba(255, 105, 180, 0.2);
+}
+
+.card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
